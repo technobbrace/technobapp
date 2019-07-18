@@ -1,0 +1,14 @@
+/Users/lolav/Projects/Adjust/Adjust/bin/Debug/netstandard2.0/Adjust.deps.json
+/Users/lolav/Projects/Adjust/Adjust/bin/Debug/netstandard2.0/Adjust.dll
+/Users/lolav/Projects/Adjust/Adjust/bin/Debug/netstandard2.0/Adjust.pdb
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Adjust.csprojAssemblyReference.cache
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/App.xaml.g.cs
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Bluetooth.xaml.g.cs
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/MainPage.xaml.g.cs
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/SettingPage.xaml.g.cs
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Adjust.csproj.CoreCompileInputs.cache
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Adjust.AssemblyInfoInputs.cache
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Adjust.AssemblyInfo.cs
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/XamlC.stamp
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Adjust.dll
+/Users/lolav/Projects/Adjust/Adjust/obj/Debug/netstandard2.0/Adjust.pdb

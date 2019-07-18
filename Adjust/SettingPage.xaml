@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Adjust.SettingPage">
+    <ContentPage.Content>
+        <Grid>
+    <Grid.ColumnDefinitions>
+    <ColumnDefinition Width="*" />
+    <ColumnDefinition Width="*" />
+    </Grid.ColumnDefinitions>
+    <Grid.RowDefinitions>
+    <RowDefinition Height="*" />
+    <RowDefinition Height="*" />
+    <RowDefinition Height="*" />
+    <RowDefinition Height="*" />
+    <RowDefinition Height="40" />
+    </Grid.RowDefinitions>
+    
+    <BoxView BackgroundColor="White" Grid.Row="4" Grid.ColumnSpan="2"/>
+        <ImageButton Source="home" BackgroundColor="Transparent" Clicked="OnHomeClicked" Margin="10,0,0,0" Aspect="AspectFit" 
+                     HorizontalOptions="Start" VerticalOptions="Center" Grid.Row="4" Grid.Column="0"/>
+        <Label Text="ADJUST" TextColor="Black" VerticalOptions="Center" 
+               HorizontalOptions="Center" Grid.ColumnSpan="2" Grid.Row="4"/>
+        <Image Source="italia3" Aspect="AspectFit" VerticalOptions="Center" 
+               HorizontalOptions="End" Margin="0,0,10,0" Grid.Row="4" Grid.Column="1"/>
+    
+    <ImageButton Source="on" Aspect="AspectFit" VerticalOptions="Center"
+                 HorizontalOptions="Center" Clicked="OnAccendiClicked" BackgroundColor="Transparent" 
+                 Grid.Row="0" Grid.Column="0"/>
+                 
+        
+        <ImageButton Source="off" Aspect="AspectFit" VerticalOptions="Center"
+                 HorizontalOptions="Center" Clicked="OnSpegniClicked" BackgroundColor="Transparent" 
+                 Grid.Row="1" Grid.Column="0"/>
+        
+        
+        <Label Text="ACCENDI ADJUST" LineBreakMode="WordWrap" TextColor="Black" FontSize="Large"
+               VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1" Grid.Row="0"/>
+      
+    <Label Text="SPEGNI ADJUST" LineBreakMode="WordWrap" TextColor="Black" FontSize="Large"
+               VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1" Grid.Row="1"/>
+   
+    <ImageButton Source="position" Aspect="AspectFit" VerticalOptions="Center" HorizontalOptions="Center"
+                 Clicked="OnPositionClicked" BackgroundColor="Transparent" Grid.Column="0"
+                 Grid.Row="2"/>
+        
+      <Label Text="SETTA POSIZIONE" LineBreakMode="WordWrap" TextColor="Black" FontSize="Large"
+               VerticalOptions="Center" HorizontalOptions="Center" Grid.Column="1" Grid.Row="2"/>  
+        
+              
+       <Label TextColor="Black" Text="Potenza" HorizontalOptions="Start" Margin="10,0,0,0" VerticalOptions="Center"
+              FontSize="Medium" Grid.Column="0" Grid.Row="3"/>
+            
+             <Button Text="+"  x:Name="Potenzasu" HorizontalOptions="Center"  Grid.ColumnSpan="2" Grid.Row="3"  
+                          Clicked="OnSuClicked" Margin="10,0,0,0" BorderRadius="8"  VerticalOptions="Center"/>
+                
+                    <Button Text="-"  x:Name="potenzagiu"  
+                         HorizontalOptions="End"  Grid.ColumnSpan="2" Grid.Row="3" VerticalOptions="Center" 
+                           Margin="0,0,10,0" Clicked="OnGiuClicked" BorderRadius="8"  />
+        
+
+
+            
+       
+       <Label x:Name="valpower" HorizontalOptions="End" VerticalOptions="Center" FontSize="Medium" TextColor="Black"
+              Grid.Column="1" Grid.Row="3" Margin="0,0,10,0"/>
+        
+    </Grid>
+    
+    </ContentPage.Content>
+</ContentPage>

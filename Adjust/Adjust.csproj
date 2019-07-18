@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceAssemblyReference>true</ProduceAssemblyReference>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="3.6.0.344457" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.1.0" />
+    <PackageReference Include="nexus.core" Version="0.35.0" />
+    <PackageReference Include="ble.net" Version="1.2.1" />
+    <PackageReference Include="Microsoft.AppCenter.Push" Version="2.1.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="MyPage.cs" />
+    <Compile Remove="MyPage.xaml.cs" />
+    <Compile Remove="AppSettingsInterface.cs" />
+    <Compile Remove="Page4.xaml.cs" />
+    <Compile Remove="Page5.xaml.cs" />
+    <Compile Remove="Page3.xaml.cs" />
+    <Compile Remove="MyPage1.xaml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MyPage.xaml" />
+    <EmbeddedResource Remove="Page5.xaml" />
+    <EmbeddedResource Remove="Page4.xaml" />
+    <EmbeddedResource Remove="Page3.xaml" />
+    <EmbeddedResource Remove="MyPage1.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Android">
+      <HintPath>..\..\..\..\..\Library\Frameworks\Xamarin.Android.framework\Versions\9.2.3-0\lib\xamarin.android\xbuild-frameworks\MonoAndroid\v8.1\Mono.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
